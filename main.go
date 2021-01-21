@@ -1,11 +1,12 @@
 package main
 
 import (
+	"fmt"
 	"go-learning/talk"
 )
 
 func main() {
-	talk.SayHello()
+	fmt.Println(talk.SayHello())
 
-	talk.Curse()
+	fmt.Println(talk.Curse())
 }
