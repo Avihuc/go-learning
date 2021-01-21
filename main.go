@@ -1,4 +1,4 @@
-package go_learning
+package main
 
 import "fmt"
 
