@@ -1,11 +1,9 @@
 package talk
 
-import "fmt"
-
-func SayHello() {
-	fmt.Println("Hello go!!")
+func SayHello() string {
+	return "Hello go!!"
 }
 
-func Curse() {
-	fmt.Println("Fuck off!!")
+func Curse() string {
+	return "Fuck off!!"
 }
